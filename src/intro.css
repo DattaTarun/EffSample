@@ -1,0 +1,76 @@
+.bg{
+    object-fit: contain;
+    max-width:100%;
+}
+.heading{
+    margin-top: -610px;
+    margin-left: -750px;
+    color: #191970;
+    font-size: 60px;
+    font-family: 'poppins';
+}
+.para{
+    margin-left: 120px;
+    margin-top: 10px;
+    text-align:left
+}
+.wholepara{
+    margin-top: 45px;
+}
+.pic1{
+    width: 300px;
+    margin-top: -450px;
+    position: absolute;
+    right: 50px;
+}
+.pic2{
+    width: 300px;
+    position: absolute;
+    right: 350px;
+    margin-top: -180px;
+}
+.pictures{
+    margin-top: px;
+    animation: zoomout 1.8s;
+}
+.textpart{
+    margin-top: 20px;
+    animation: zoomin 1.5s ease-out;
+}
+@keyframes zoomin {
+    0% { opacity: 0;
+        scale: 0;
+     }
+    100% { opacity: 1;
+        scale: 1;
+     }
+  }
+@keyframes zoomout {
+    0% { opacity: 0;
+        scale: 1.5;
+     }
+    100% { opacity: 1;
+        size: 300px;
+        scale: 1;
+     }
+  }
+  .arrow {
+    border-color:transparent;
+    border-style:solid;
+    border-width:0 2em;
+    display:block;
+    height:0;
+    margin:10em auto;
+    opacity:0.4;
+    text-indent:-9999px;
+    transform-origin: 50% 50%;
+    width:0;
+  }
+  .down {
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+    border-top:2em solid blue;
+  }
+  @keyframes downarrow {
+    0% { -webkit-transform: translateY(0); opacity: 0.4 }
+    100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+  }

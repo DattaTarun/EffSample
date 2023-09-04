@@ -1,0 +1,51 @@
+.bg4{
+    object-fit: contain;
+    margin-top: 613px;
+    width: 100%;
+    max-height:100%;
+    max-width: 100%;
+    transform: scaleY(3.4);
+}
+.star{
+    color: red;
+}
+.form{
+    position: absolute;
+    margin-top: -1250px;
+    margin-left: 240px;
+}
+.form-row{
+    margin-bottom: 70px;
+}
+.form-group{
+    margin-right: 40px;
+}
+.upar{
+    margin-top: 24px;
+}
+.front-row2{
+    margin-left: -100px;
+}
+.front-row3{
+    margin-left: 100px;
+}
+.front-row5{
+    margin-left: 55px;
+}
+.front-row6{
+    margin-left: 40px;
+}
+.front-row7{
+    margin-left: 110px;
+}
+.front-row8{
+    margin-left: 200px;
+}
+.btn{
+    margin-bottom: 100px;
+    margin-left: -210px;
+    margin-top: -20px;
+}
+textarea{
+    resize: none;
+}

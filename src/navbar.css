@@ -1,0 +1,35 @@
+.logo{
+    width: 150px;
+    margin-left: 138px;
+}
+.navbar{
+    height: 70px;
+}
+.collapse{
+    position: fixed;
+    right: 60px;
+}
+
+.clr:hover{
+    color: #3a9bdc;
+}
+.clr{
+    color:#281e5d;
+}
+.dropdown-item:hover{
+    color: #3a9bdc;
+}
+.top{
+    margin-top:10px;
+    margin-right: 12px;
+}
+.rest{
+    margin-top:7px;
+    margin-right: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+
